@@ -14,7 +14,7 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/img/bart.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -48,14 +48,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/bart.png',
+  footerIcon: 'img/bart.png',
+  favicon: 'img/bart.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#887d5b',
-    secondaryColor: '#5f573f',
+    primaryColor: '#ff3300',
+    secondaryColor: '#ff5c33',
   },
 
   /* Custom fonts for website */
@@ -73,10 +73,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} MEANSTACK`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
+    //https://github.com/highlightjs/highlight.js/tree/master/src/styles
     theme: 'default',
   },
 
@@ -87,6 +88,9 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+
+  facebookAppId: '391931597899629',
+  facebookComments: true,
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
